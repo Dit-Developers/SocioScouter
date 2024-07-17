@@ -37,7 +37,7 @@ def check_update():
     
     http_json = json.loads(http)
 
-    with open("storm-web/Settings.json", "r") as jsonFile:
+    with open("socio-web/Settings.json", "r") as jsonFile:
 
         data = json.load(jsonFile)
         if data['version'] < http_json['version']:

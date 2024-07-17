@@ -31,8 +31,8 @@ def md5_hash():
 
 
 def run_php_server(port):
-    with open(f"storm-web/log/php-{md5_hash().hexdigest()}.log","w") as php_log:
-        proc_info = subprocess.Popen(("php","-S",f"localhost:{port}","-t","storm-web"),stderr=php_log,stdout=php_log).pid
+    with open(f"socio-web/log/php-{md5_hash().hexdigest()}.log","w") as php_log:
+        proc_info = subprocess.Popen(("php","-S",f"localhost:{port}","-t","socio-web"),stderr=php_log,stdout=php_log).pid
 
 
     with open("socio-web/Settings.json", "r") as jsonFile:

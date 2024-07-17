@@ -1,6 +1,6 @@
 <h1 align="center">
   <br>
-  <a href="https://github.com/ultrasecurity/Storm-Breaker"><img src=".imgs/1demo.png" alt="StormBreaker"></a>
+  <a href="https://github.com/Dit-Developers/SocioScouter"><img src=".imgs/1demo.png" alt="StormBreaker"></a>
 
 </h1>
 
@@ -84,7 +84,7 @@
 ### Installation On Kali Linux
 
 ```bash
-$ git clone https://github.com/ultrasecurity/Storm-Breaker
+$ git clone https://github.com/Dit-Developers/SocioScouter
 $ cd Storm-Breaker
 $ sudo bash install.sh
 $ sudo python3 -m pip install -r requirements.txt
